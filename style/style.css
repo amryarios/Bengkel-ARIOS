@@ -1,0 +1,157 @@
+*{
+	font-family: "Gilroy", cursive;
+}
+
+.home {
+	background-image: url("../img/ui/home.png");
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100%;
+	position: relative;
+}
+
+.login {
+	background-image: url("../img/ui/login.png");
+	background-color: #E9ECF1;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100%;
+	position: relative;
+}
+
+.about {
+	background-image: url("../img/ui/about.png");
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100%;
+	position: relative;
+}
+
+.awal {
+	color: #9597B5;
+}
+
+.awal:hover {
+	color: #EB8076;
+}
+
+.active {
+	color: #EB8076;
+}
+
+.button-right {
+	font-family: "Gilroy", cursive;
+	display: inline-block;
+	border-radius: 50px;
+	background-color: #EB8076; /*8989AD*/
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	padding: 2px;
+	width: 150px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	margin-top: 10px;
+}
+
+.button-right span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button-right span:after {
+	content: "\00bb";
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.button-right:hover span {
+	padding-right: 25px;
+}
+
+.button-right:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+.button-left {
+	font-family: "Gilroy", cursive;
+	display: inline-block;
+	border-radius: 50px;
+	background-color: #EB8076; /*8989AD*/
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	padding: 2px;
+	width: 100px;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.button-left span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button-left span:after {
+	content: "\00ab";
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	left: -20px;
+	transition: 0.5s;
+}
+
+.button-left:hover span {
+	padding-left: 25px;
+}
+
+.button-left:hover span:after {
+	opacity: 1;
+	left: 0;
+}
+
+.text {
+	font-family: "Gilroy", cursive;
+	margin-top: -15px;
+	margin-left: 5px;
+	font-size: 20px;
+}
+
+.text-bold {
+	font-family: "Gilroy Extrabold", cursive;
+	font-size: 20px;
+}
+
+.judul {
+	font-size: 60px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.apotek {
+	font-size: 28px;
+}
+
+.margint {
+	margin-top: 175px;
+}
+
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: 75px;
+}
